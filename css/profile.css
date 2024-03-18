@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../img/bg.jpg');
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(16, 111, 175);
+    font-family: "Roboto";
+}

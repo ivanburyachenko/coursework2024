@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    z-index: 1000;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    background-color: rgba(151, 118, 161, 0.9);
+}
+
+header a {
+    border: solid 1px rgb(161, 161, 231);
+    padding: 25px;
+    border-radius: 15px;
+    font-size: large;
+    position: relative;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(16, 111, 175);
+    font-family: "Roboto";
+}
+
+header a:hover {
+    background-color: rgb(161, 161, 231);
+}
+
+header a:active {
+    color: black;
+}
+
+li ul {
+    margin-left: 50px;
+}

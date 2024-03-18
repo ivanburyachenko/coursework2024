@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background: rgb(2, 0, 36); */
+    background-image: url('../img/bg.jpg');
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+}
+
+th {
+    background: #4fd4ac;
+    color: azure;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+}
+
+th,
+td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+th:first-child,
+td:first-child {
+    text-align: left;
+}
+
+th:first-child {
+    border-top-left-radius: 10px;
+}
+
+th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+}
+
+td {
+    padding: 5px 10px;
+    background: #F8E391;
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+tr td:last-child {
+    border-right: none;
+}
+
+.input {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid transparent;
+    outline: none;
+    transition: all 300ms ease-in-out;
+    width: 300px;
+    color: black;
+}
+
+input:focus {
+    background-color: rgb(151, 118, 161);
+    border: 1px solid rgb(161, 161, 231);
+    color: rgb(255, 255, 255);
+}
+
+li {
+    color: purple
+}
+
+.floating-button {
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.floating-button:hover {
+    cursor: pointer;
+    background: rgb(151, 118, 161);
+    box-shadow: 0 15px 20px rgb(151, 118, 161);
+    color: white;
+    transform: translateY(-7px);
+}
+
+#myChart {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.chosenTable {
+    scale: 1;
+}
+
+canvas {
+    position: absolute;
+    right: 0;
+    top: 100;
+}
