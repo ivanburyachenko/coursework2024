@@ -4,8 +4,7 @@
 }
 
 body {
-    /* background: #1D1E1F; */
-    background-image: url('../img/bg.jpg');
+    background: #ffa600;
 }
 
 main {
@@ -17,12 +16,22 @@ main {
     margin-left: 50px;
 }
 
-p {
-    font-size: large;
+main p {
+    font-family: "Montserrat";
+    color: #181818;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Montserrat;
+    color: #000000;
+    font-size: 30px;
 }
 
 li {
-    font-size: larger;
+    font-family: Montserrat;
+    color: #181818;
+    font-size: 20px;
 }
 
 .list {

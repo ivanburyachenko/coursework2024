@@ -1,8 +1,35 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header p {
+    font-family: "Montserrat";
+    color: #181818;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+header p:hover {
+    color: #FFFFFF;
+}
+
+.login {
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100px;
+}
 
 header {
     z-index: 1000;
@@ -13,11 +40,11 @@ header {
     align-items: center;
     width: 100%;
     padding-top: 10px;
-    background-color: rgba(151, 118, 161, 0.9);
+    background: #ffa600;
+    height: 90px;
 }
 
-header a {
-    border: solid 1px rgb(161, 161, 231);
+/* header a {
     padding: 25px;
     border-radius: 15px;
     font-size: large;
@@ -26,15 +53,7 @@ header a {
     text-decoration: none;
     color: rgb(16, 111, 175);
     font-family: "Roboto";
-}
-
-header a:hover {
-    background-color: rgb(161, 161, 231);
-}
-
-header a:active {
-    color: black;
-}
+} */
 
 li ul {
     margin-left: 50px;

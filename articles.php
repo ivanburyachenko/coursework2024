@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/article.css">
     <title>Document</title>
 </head>
@@ -63,6 +67,14 @@
                 <p>В Норвегії до 8 класу немає оцінок, акцент робиться на розвитку особистості.</p>
                 <p>У Франції і Канаді використовуються відповідно 20-бальна та буквена системи оцінювання. </p>
                 <p>Всюди важливий індивідуальний прогрес учнів та зворотний зв'язок з батьками.</p>
+            </li>
+            <li>
+                <a href="article1.php">Основні відмінності у системі навчання між США та Європейським Союзом</a>
+                <h2>Коротко про статтю:</h2>
+                <p>
+                    Стаття пропонує короткий порівняльний аналіз систем навчання в Сполучених Штатах Америки та країнах
+                    Європейського Союзу. Вона розглядає основні відмінності та подібності у структурі освіти, методах
+                    навчання та системах фінансування. </p>
             </li>
         </ul>
     </main>

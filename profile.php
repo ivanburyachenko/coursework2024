@@ -17,6 +17,13 @@
     include 'header.php';
     ?>
     <div class='container'>
+        <h1>
+            <?
+            if ($_SESSION['isAdmin'] == 1) {
+                echo "<h1 class='admin'>АДМІНІСТРАТОР</h1>";
+            } 
+            ?>
+        </h1>
         <h1>Логін:
             <?php
             session_start();
@@ -37,8 +44,12 @@
             echo $_SESSION['surnameu'];
             ?>
         </h1>
-        <a href="create_anket.php">Створити анкету</a>
-        <a href="view_ankets.php">Переглянути анкети</a>
+        <a href="create_anket.php">Заповнити анкету</a>
+        <?
+        if ($_SESSION['isAdmin'] == 1) {
+            echo "<a href='view_ankets.php'>Переглянути анкети</a>";
+        }
+        ?>
     </div>
 </body>
 

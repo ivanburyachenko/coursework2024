@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('../img/bg.jpg');
+    background: #ffa600;
 }
 
 .container {
@@ -16,8 +16,25 @@ body {
     gap: 10px;
 }
 
+main p {
+    font-family: "Montserrat";
+    color: #181818;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: Montserrat;
+    color: #000000;
+    font-size: 30px;
+}
+
 a {
-    text-decoration: none;
-    color: rgb(16, 111, 175);
-    font-family: "Roboto";
+    font-family: Montserrat;
+    color: rgb(0, 36, 90);
+    font-weight: 500;
+    /* text-decoration: none; */
+}
+
+.admin {
+    color: red;
 }
